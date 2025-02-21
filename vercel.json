@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/next"
+      }
+    ],
+    "env": {
+      "OPENAI_API_KEY": "@openai_api_key",
+      "REPLICATE_API_TOKEN": "@replicate_api_token",
+      "UPSTASH_REDIS_REST_URL": "@upstash_redis_rest_url",
+      "UPSTASH_REDIS_REST_TOKEN": "@upstash_redis_rest_token"
+    }
+  }
